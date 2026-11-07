@@ -1,0 +1,11 @@
+batch_size: 256
+learning_rate: 0.0005
+epochs: 40
+train_path: data/processed/train.npz
+val_path: data/processed/val.npz
+feature_names:
+  - age
+  - heart_rate
+  - systolic_bp
+  - creatinine
+  - hemoglobin
